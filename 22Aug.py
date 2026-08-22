@@ -1,5 +1,5 @@
-'''marks=[56,76,98,23,88,70]
-passed=[]
+marks=[56,76,98,23,88,70]
+'''passed=[]
 for m in marks:
     if m>=40:
         passed.append(m)
@@ -18,5 +18,9 @@ print(passed)'''
 print(cube(3))'''
 
 #Lambda Function 
-cube = lambda x: x*x*x
-print(cube(3))
+'''cube = lambda x: x*x*x
+print(cube(3))'''
+
+#Map Function
+percentage=list(map(lambda m: m/100, marks))
+print(percentage)
