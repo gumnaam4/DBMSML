@@ -1,7 +1,13 @@
 marks=[56,76,98,23,88,70]
-passed=[]
+'''passed=[]
 for m in marks:
     if m>=40:
         passed.append(m)
-print(passed)
+print(passed)'''
+
+
 #List comprehension
+passed=[m for m in marks if m>=40]
+print(passed)
+
+#Lambda Function 
