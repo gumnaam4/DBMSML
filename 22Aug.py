@@ -22,5 +22,9 @@ print(cube(3))'''
 print(cube(3))'''
 
 #Map Function
-percentage=list(map(lambda m: m/100, marks))
-print(percentage)
+'''percentage=list(map(lambda m: m/100, marks))
+print(percentage)'''
+
+#filter function
+passed= list(filter(lambda m: m>=50, marks))
+print(passed)
