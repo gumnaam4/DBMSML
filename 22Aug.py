@@ -12,10 +12,11 @@ print(passed)'''
 
 
 #Normal Function
-def cube(x):
+'''def cube(x):
     return x*x*x
 
-print(cube(3))
-
+print(cube(3))'''
 
 #Lambda Function 
+cube = lambda x: x*x*x
+print(cube(3))
